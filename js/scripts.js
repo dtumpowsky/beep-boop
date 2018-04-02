@@ -35,7 +35,8 @@
 // function sub(integer1, integer2) {
 //   integer1 - integer2;
 // }
-//
+
+
 
 $(document).ready(function() {
   $("form#hal").submit(function(event) {
@@ -43,27 +44,28 @@ $(document).ready(function() {
 
   var number = $("input#userInt").val();
   var numberInt = parseInt(number);
-  var numberArr = [numberInt];
   var newArr = []
-
-  for (i=0; i<numberArr.length; i--) {
-      newArr[i] = numberArr.unshift(numberInt--)
-      if (newArr[i] == 0) {
-        break;
-      }
-    }
+  var userName = $("input#userNameInput").val();
 
 
 
-    console.log(numberArrs);
+  for (var i = 0; i <= numberInt; i++) {
+    newArr.push(i);
+  }
+
+console.log(newArr)
+  $("#result").text(newArr);
+
+  // for (i=0; i<numberArr.length; i--) {
+  //     newArr[i] = numberArr.unshift(numberInt--)
+  //     if (newArr[i] == 0) {
+  //       break;
+  //     }
+  //   }
 
 
 
 
-
-
-
-  $("#result").text(number);
 
 
   });
