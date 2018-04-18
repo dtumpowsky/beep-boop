@@ -21,13 +21,6 @@ _Numbers 0 to "user input" are listed_
 
 
 
-
-## Known Bugs
-
-_The logic is off, and the program does not run at the moment_
-
-
-
 ## Technologies Used
 
 _Javascript,Jquery,CSS,html_
