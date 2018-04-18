@@ -1,4 +1,4 @@
-# _{Application Name}_
+# _{Beep Boop}_
 
 #### _Application should list numbers 0-Input, replacing 0s and 1s with beep or boop, and an error message from the computer when a 3 is entered, 3/30_
 
